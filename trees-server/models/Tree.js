@@ -15,9 +15,6 @@ const TreeSchema = new mongoose.Schema({
   image: {
     type: String
   },
-  entries: {
-    entry: [{ body: String, date: Date }],
-  },
   date_planted: {
     type: Date,
     default: Date.now
