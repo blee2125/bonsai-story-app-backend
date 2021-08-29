@@ -4,6 +4,7 @@ var cors = require('cors');
 
 // routes <---
 const trees = require('./routes/api/trees');
+const entries = require('./routes/api/entries');
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.get('/', (req, res) => res.send('test route'));
 
 // use Routes <---
 app.use('/api/trees', trees);
+app.use('/api/entries', entries);
 
 const port = process.env.PORT || 8082;
 
