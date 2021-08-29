@@ -1,4 +1,0 @@
-{
-    "mongoURI":
-      "mongodb+srv://MongoUser:MongoPass@cluster0.xdbey.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  }
